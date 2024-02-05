@@ -1,0 +1,49 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .container {
+    text-align: center;
+    margin: 10%;
+    border: 2px double blue;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+  }
+
+
+ul{
+    list-style: none;
+    }
+
+li{
+    background-color: aqua;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding:10px;
+    border-radius: 10px;
+    display: inline-block;
+    width:70%;
+    word-break:break-all; /* wrap extended text*/
+    border:1px solid red /* demo */;
+    text-align: left;
+}
+
+
+.taskForm{
+    margin: 10%;
+    display: inline-block;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    margin:10px
+}
