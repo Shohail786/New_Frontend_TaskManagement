@@ -24,7 +24,7 @@ function Login() {
       console.log("res_data", response.data);
       const { user, token } = response.data;
       Cookies.set("token", token);
-      history("/tasks");
+      history("https://new-1-frontendtaskmanagement.onrender.com/tasks");
     } catch (error) {
       console.log("Error during login:", error);
     }
