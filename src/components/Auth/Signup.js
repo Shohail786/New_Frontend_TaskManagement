@@ -21,7 +21,7 @@ function Signup() {
     try {
       const response = await signup(formData);
       console.log("Signup Response:", response);
-      history("/login");
+      history("https://new-1-frontendtaskmanagement.onrender.com/login");
     } catch (error) {
       console.error("Error during signup:", error);
     }
